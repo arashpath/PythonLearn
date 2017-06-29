@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Print Recrussive List with there full index"""
 def printList(the_list,level=''):
     for each_item in the_list:
         if isinstance(each_item, list):
